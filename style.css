@@ -1,0 +1,169 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* fundo escuro elegante */
+}
+p{
+    font-size: 35px !important;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: 70px !important;
+  justify-content: center !important;
+}
+
+.lead {
+  font-size: 1.25rem;
+}
+.text-success{
+    color: #25a805 !important;
+}
+.carousel-item img {
+  height: 40vh;   /* 40% da altura da tela */
+  object-fit: cover;
+}
+header {
+  text-align: center; /* centraliza o texto horizontalmente */
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* garante o centro dentro do container */
+}
+
+header h1, 
+header p {
+  margin-left: auto;
+  margin-right: auto;
+}
+#quem-sou-eu {
+  background-color: #212529 !important; /* tom mais escuro que o fundo */
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+#quem-sou-eu p {
+  max-width: 800px !important;
+  margin: 0 auto !important; /* centraliza o texto */
+  line-height: 1.8 !important;
+}
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top; 
+  border: 4px solid #00ff00;
+  
+  display: block;
+  margin: 40px auto 0 auto;
+}
+html {
+  
+  scroll-behavior: smooth !important; 
+}
+.carousel-item img {
+  width: 100% !important;
+  height: auto;
+  display: block;
+  object-fit: cover!;
+}
+.banner-img {
+  width: 100% !important;
+  height: 45vh !important; /* altura tipo banner: ajuste entre 35vh e 50vh se quiser */
+  object-fit: cover !important; /* preenche o espaço sem distorcer */
+  display: block !important;
+}
+#meus-projetos {
+  background-color: #1a1d20!important;
+  padding-top: 80px!important;
+  padding-bottom: 80px!important;
+}
+
+#meus-projetos .card {
+  border: 1px solid #4bdb03 !important; /* borda verde */
+  border-radius: 12px!important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease!important;
+}
+
+#meus-projetos .card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 0 15px rgb(22, 228, 3) !important;
+}
+
+#meus-projetos img {
+  border-radius: 10px!important;
+  object-fit: cover!important;
+  width: 100%!important;
+  height: auto!important;
+}
+
+#meus-projetos h4 {
+  font-size: 1.5rem!important;
+}
+
+#meus-projetos p {
+  line-height: 1.6!important;
+}
+/* Seção Objetivos Profissionais */
+#objetivos-profissionais {
+  background-color: #212529;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#objetivos-profissionais h2 {
+  letter-spacing: 1px;
+}
+
+#objetivos-profissionais .objetivos-text {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #a9b0b3;
+}
+
+/* linha decorativa verde suave */
+#objetivos-profissionais .decor-line {
+  width: 70px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #25a805, transparent);
+  border-radius: 2px;
+}
+
+/* animação de entrada (fade-in) */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.fade-in.visible {
+  opacity: 1!important;
+  transform: translateY(0);
+}
+
+/* responsividade */
+@media (max-width: 576px) {
+  #objetivos-profissionais .objetivos-text {
+    font-size: 0.95rem;
+    padding: 0 20px;
+  }
+  
+}
+footer {
+  position: relative; 
+  width: 100%;
+  background-color: #25a805;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}

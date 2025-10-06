@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Seu CSS personalizado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Título central com "My" verde e "Portfolio" branco -->
+  <header class="text-center py-5">
+    <div class="container">
+      <h1 class="display-3 fw-bold">
+        <span class="text-success">My</span> <span class="text-white">portfolio</span>
+      </h1>
+      <p class="lead text-secondary">Bem-vindo ao meu portfólio!</p>
+    </div>
+  </header>
+
+  <!-- Seção principal -->
+  <main class="my-5">
+   <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="#quem-sou-eu">
+        <img src="img/quem sou eu.png" class="d-block w-100 banner-img" alt="Clique para ir para Quem Sou Eu">
+      </a>
+    </div>
+
+    <div class="carousel-item">
+      <a href="#meus-projetos">
+        <img src="img/meus projetos.png" class="d-block w-100 banner-img" alt="Clique para ir para Meus Projetos">
+      </a>
+    </div>
+
+    <div class="carousel-item">
+      <a href="#objetivos-profissionais">
+        <img src="img/objetivos.png" class="d-block w-100 banner-img" alt="Clique para ir para Objetivos Profissionais">
+      </a>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<!-- Seção: Quem Sou Eu -->
+<section id="quem-sou-eu" class="py-5 bg-dark text-center text-white fade-in">
+  <div class="container">
+    <h2 class="text-success fw-bold mb-4">QUEM SOU EU</h2>
+    <p class="lead text-secondary mb-5">
+      Olá! Meu nome é <span class="text-success fw-semibold">Mateus</span> e sou um entusiasta da tecnologia e da inovação. Atualmente curso Ciência da Computação na UNINASSAU, onde venho aprimorando meus conhecimentos em diversas áreas da computação, desde desenvolvimento de software até análise de dados e infraestrutura.
+      Concluí o Ensino Médio Integrado em Informática no Instituto Federal de Pernambuco (IFPE), onde tive meu primeiro contato com programação e tecnologia de forma mais profunda.
+      Além disso, atuo também na área de marketing digital, gerenciando o Instagram de um supermercado, o que me permite desenvolver habilidades em criação de conteúdo, design e engajamento com o público.
+      Sou apaixonado por aprender, criar e aplicar soluções que unam tecnologia e criatividade.
+    </p>
+    <img src="img/minha foto.jpg" alt="Foto de Mateus" class="foto-perfil">
+  </div>
+</section>
+<!-- Seção: Meus Projetos -->
+<section id="meus-projetos" class="py-5 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-success fw-bold text-center mb-5">MEUS PROJETOS</h2>
+
+    <!-- Projeto 1 -->
+    <div class="card bg-dark border-success mb-5 p-4 shadow projeto">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/wisdom.png" alt="Projeto 1" class="img-fluid rounded border border-success">
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-success fw-bold mt-3 mt-md-0">+Wisdom – Plataforma de Cursos Interativos</h4>
+          <p class="text-secondary">
+            O +Wisdom é um protótipo de alta fidelidade desenvolvido como projeto acadêmico, pensado para ser uma plataforma moderna e intuitiva de cursos diversos. O objetivo foi criar um ambiente digital voltado ao aprendizado acessível e dinâmico, com foco em usabilidade, design responsivo e experiência do usuário. Todo o projeto foi construído com base em pesquisas de UX/UI e boas práticas de design.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 2 -->
+    <div class="card bg-dark border-success mb-5 p-4 shadow projeto">
+      <div class="row align-items-center flex-md-row-reverse">
+        <div class="col-md-6">
+          <img src="img/encanto tropical.png" alt="Projeto 2" class="img-fluid rounded border border-success">
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-success fw-bold mt-3 mt-md-0">Encanto Tropical – Loja de Flores Tropicais</h4>
+          <p class="text-secondary">
+            Projeto acadêmico que evoluiu para uma página web funcional, a Encanto Tropical foi idealizada como uma loja virtual especializada em flores tropicais. O site destaca-se pela estética leve e colorida, transmitindo a beleza natural dos produtos e oferecendo uma navegação simples e elegante. O desenvolvimento utilizou HTML, CSS e JavaScript, priorizando um layout limpo e atrativo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Projeto 3 -->
+     <div class="card bg-dark border-success mb-5 p-4 shadow projeto">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/MARIO.png " alt="Projeto 3" class="img-fluid rounded border border-success">
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-success fw-bold mt-3 mt-md-0">Jogo do Mario – Desenvolvimento Interativo</h4>
+          <p class="text-secondary">
+            Um dos meus projetos mais divertidos: um jogo totalmente jogável inspirado no clássico Super Mario. Desenvolvido com HTML, CSS e JavaScript, o projeto reforçou meus conhecimentos em lógica de programação, eventos e animações. O jogo conta com movimentação fluida e desafios simples, trazendo uma experiência nostálgica e interativa para os jogadores.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Projeto 4 -->
+    <div class="card bg-dark border-success mb-5 p-4 shadow projeto">
+      <div class="row align-items-center flex-md-row-reverse">
+        <div class="col-md-6">
+          <img src="img/KIPRECO.jpg" alt="Projeto 4" class="img-fluid rounded border border-success">
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-success fw-bold mt-3 mt-md-0">Marketing Digital - Supermercado Kipreço</h4>
+          <p class="text-secondary">
+            Atualmente, sou responsável pelo marketing digital do supermercado Kipreço, onde produzo vídeos, roteiros e campanhas publicitárias para o Instagram. Além de planejar o conteúdo, também atuo como apresentador nos vídeos promocionais, fortalecendo o engajamento da marca com o público. Essa experiência tem aprimorado minhas habilidades em comunicação, criatividade e estratégia digital.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Você pode copiar e colar mais blocos assim para os próximos projetos -->
+  </div>
+</section>
+<!-- Seção: Objetivos Profissionais -->
+<section id="objetivos-profissionais" class="py-5 bg-dark text-center text-white fade-in">
+  <div class="container">
+    <h2 class="text-success fw-bold mb-4">OBJETIVOS PROFISSIONAIS</h2>
+
+    <p class="lead text-secondary mb-4 objetivos-text">
+      Meu principal objetivo é continuar crescendo nas áreas de Comunicação, Marketing Digital e Desenvolvimento.
+      Busco aprimorar minhas habilidades tanto na criação de conteúdo e estratégias para redes sociais,
+      quanto no campo da programação e tecnologia. Desejo conquistar experiências que me desafiem,
+      permitindo unir a criatividade do marketing com o raciocínio lógico da programação,
+      sempre buscando evoluir pessoal e profissionalmente.  
+      Quero seguir aprendendo, enfrentando novos desafios e contribuindo em projetos que me façam crescer
+      como desenvolvedor e como comunicador.
+    </p>
+
+    <div class="decor-line mx-auto mb-3"></div>
+  </div>
+</section>
+  <footer>
+    <p>© 2025 - Desenvolvido por Mateus Bezerra de Souza | Portfólio acadêmico</p>
+  </footer>
+  </body>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    elements.forEach(el => observer.observe(el));
+  });
+</script>
+
+</body>
+</html>
+
